@@ -1,0 +1,6 @@
+name: AntiSpawnerBadOmen
+main: world.bentobox.antispawnerbadomen.AntiSpawnerBadOmen
+version: 1.0.0
+api-version: 1.14.0
+icon: "CROSSBOW"
+authors: jstnf
