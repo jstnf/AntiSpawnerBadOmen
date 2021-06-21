@@ -7,7 +7,7 @@ import world.bentobox.bentobox.api.addons.Addon;
 
 public class AntiSpawnerBadOmen extends Addon {
 
-    public static final String NATURAL_TAG = "AntiSpawnerBadOmenNatural";
+    public static final String UNNATURAL_TAG = "AntiSpawnerBadOmenUnnatural";
 
     private UnnaturalPillagerKillTracker killTracker;
 

@@ -20,8 +20,8 @@ public class PillagerSpawnListener implements Listener {
 
         Pillager pillager = (Pillager) e.getEntity();
         if (pillager.isPatrolLeader() &&
-                (e.getSpawnReason() == CreatureSpawnEvent.SpawnReason.NATURAL || e.getSpawnReason() == CreatureSpawnEvent.SpawnReason.PATROL)) {
-            pillager.addScoreboardTag(AntiSpawnerBadOmen.NATURAL_TAG);
+                !(e.getSpawnReason() == CreatureSpawnEvent.SpawnReason.NATURAL || e.getSpawnReason() == CreatureSpawnEvent.SpawnReason.PATROL)) {
+            pillager.addScoreboardTag(AntiSpawnerBadOmen.UNNATURAL_TAG);
         }
     }
 }

@@ -26,7 +26,7 @@ public class PillagerKillListener implements Listener {
         if (!pillager.isPatrolLeader()) return;
         if (pillager.getHealth() > e.getFinalDamage()) return; // The entity isn't dead
 
-        addon.getKillTracker().add(e.getDamager().getUniqueId(), !pillager.getScoreboardTags().contains(AntiSpawnerBadOmen.NATURAL_TAG));
+        addon.getKillTracker().add(e.getDamager().getUniqueId(), pillager.getScoreboardTags().contains(AntiSpawnerBadOmen.UNNATURAL_TAG));
     }
 
     @EventHandler (priority = EventPriority.HIGHEST)
