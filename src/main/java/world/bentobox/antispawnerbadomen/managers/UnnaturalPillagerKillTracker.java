@@ -7,7 +7,7 @@ import java.util.Map;
 import java.util.UUID;
 
 // Holds information on whether a player's last killed patrol leader
-// Was a naturally spawned patrol leader or if they were unnaturally spawned
+// was a naturally spawned patrol leader or if they were unnaturally spawned
 public class UnnaturalPillagerKillTracker {
 
     private final Map<UUID, Boolean> trackedKills;

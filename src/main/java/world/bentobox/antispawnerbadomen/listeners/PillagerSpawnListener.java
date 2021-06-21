@@ -9,7 +9,7 @@ import world.bentobox.antispawnerbadomen.AntiSpawnerBadOmen;
 
 public class PillagerSpawnListener implements Listener {
 
-    // Detect and tag Pillager Captains spawned by natural means or through Patrols
+    // Detect and tag Pillager Captains that are not spawned via natural means or through Patrols
     // These tags persist through server restarts
     // Reference: https://minecraft.fandom.com/wiki/Scoreboard#Tags
     // https://www.spigotmc.org/threads/scoreboard-tag-methods.194208/#post-2027911
